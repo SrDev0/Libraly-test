@@ -37,15 +37,15 @@ local redzlib = {
 		MetalRed = {
 			["Color Hub 1"] = ColorSequence.new({
 				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)),
-				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(80, 0, 0)),
-				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(180, 0, 0))
+				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(40, 0, 0)),
+				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(90, 0, 0))
 			}),
 			["Color Hub 2"] = Color3.fromRGB(20, 20, 20),
-			["Color Stroke"] = Color3.fromRGB(100, 0, 0),
-			["Color Theme"] = Color3.fromRGB(200, 30, 30),
+			["Color Stroke"] = Color3.fromRGB(50, 0, 0), 
+			["Color Theme"] = Color3.fromRGB(100, 15, 15), 
 			["Color Text"] = Color3.fromRGB(220, 220, 220),
 			["Color Dark Text"] = Color3.fromRGB(170, 170, 170),
-      ["Color Hover Text"] = Color3.fromRGB(220, 220, 220)
+      			["Color Hover Text"] = Color3.fromRGB(220, 220, 220)
 		}
 	},
 	Info = {
